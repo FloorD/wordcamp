@@ -1,0 +1,5 @@
+###Working towards great version control for content creators
+
+As someone who incidentally writes about stuff with other people, I often encounter the same problem. You either email tiny changes to your article to the one who’s ultimately responsible for the website, which is bound to go wrong. Or you log into your CMS, make some changes to your piece and save it, while one of the other editors does the exact same thing, just using another shiny laptop. Changes get lost. Stuff gets added twice and you end up frustrated because the preview doesn’t reflect your work. Now this is annoying as it is, but if you program a bit on the side (like I do) and you use version control, you know that there is a solution for that. For WordCamp I'd love to gather my thoughts on what would make a great version control tool for WordPress and test [existing plugins][1] by these requirements.
+
+[1]: http://wordpress.org/plugins/tags/version-control
