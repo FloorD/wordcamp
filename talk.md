@@ -102,7 +102,7 @@ Remove Workflow States - Completely removes Workflow state taxonomy backend and 
 Change Tracker - Auto-generates and appends revision summaries for changes to taxonomies, title, and visibility  
 
 **Translations:**  
-French, Spanish, Norwegian, German, Chinese, Swedish, Czech, Italian, Russian, Dutch.
+French, Spanish, Norwegian, German, Chinese, Swedish, Czech, Italian, Russian, Dutch.  
 
 WP Document Revisions was developed by a law student and a business student with a grant from Google, and in close coordination with and under the watchful eye of WordPress.org's lead developers (Although neither relationship should imply an endorsement). Special thanks to Jon Cave, Aaron Jorbin, Mitcho Erlewine, and Andrew Nacin for their guidance.
 
@@ -140,6 +140,35 @@ Conflict - When a post is forked if a given line is changed on the fork, and tha
 
 [GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows][5]  
 
+Nowadays, GitHub hosts more than just source code. Books, transcripts of talks and even whole constituents.   
+
+
+"At Wired offices, you hear the question over and over again as we work on stories like the one you’re reading now: “Are you out of the story? I want to go in.” We have a version control problem. We publish Wired.com on WordPress. It’s a decent publishing tool, but when two people change a story at the same time, one of them doesn’t get her changes onto the final story. We published our GitHub story on GitHub because it was meta-cool. But we also did it to see if GitHub might actually help us solve our problem."
+http://www.wired.com/wiredenterprise/2012/02/github-revisited/
+
+"People were fixing the same problem over and over again. Some of their changes couldn’t be merged automatically, but they included good additions that should be considered. GitHub lets users describe the changes they’re making, but not everyone is precise when doing this. So you need to check closely to see what is really being changed."
+
+The suggested change, in [GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows][5]:  
+
+User without the ability to edit an existing post has changes to make  
+User “forks” the post, making any change they deem necessary  
+When done, user attempts to merge changes back into the original  
+Post goes into standard WordPress “pending review” workflow  
+Editor is presented with diff (using the built-in diff engine), and can automatically accept changes (if there are no conflicts), or manually merge the two if necessary  
+Post is re-published with updated content, revision logs merged to reflect history  
+
+
+Extends WordPress’s existing revision system  
+Clone existing posts, edit, and “republish”  
+Schedule changes to posts, including taxonomies and metadata  
+Pending changes diff view, front-end preview of changes  
+Using WordPress’s pending-review system, integrates with existing plugins for notifications, management, etc.  
+Ability to store “commit messages” with each post revision to explain to others what changes were made and why  
+Automatically merges (non-conflicted) changes (based on existing diff engine)  
+    - One sided changes – one overwrites the other  
+    - Two sided non-conflict changes – automatically merge  
+    - Conflicted changes – note conflicts in fork and prepare for re-merge  
+
 
 
 **Project Status**  
@@ -147,6 +176,95 @@ This version constitutes an initial release designed to showcase the plugin's co
 
 **More Information**  
 For more information, or to contribute to this documentation, please visit the [Post Forking project wiki][6].  
+
+#####Edit Flow
+http://wordpress.org/plugins/edit-flow/  
+
+**Requires:** 3.4 or higher  
+**Compatible up to:** 3.5.2  
+**Last Updated:** 2013-1-31  
+**Downloads:** 59,539  
+
+4.9 out of 5 stars for 72 users  
+
+Edit Flow empowers you to collaborate with your editorial team inside WordPress. We've made it modular so you can customize it to your needs:  
+
+Calendar - A convenient month-by-month look at your content.  
+Custom Statuses - Define the key stages to your workflow.  
+Editorial Comments - Threaded commenting in the admin for private discussion between writers and editors.  
+Editorial Metadata - Keep track of the important details.  
+Notifications - Receive timely updates on the content you're following.  
+Story Budget - View your upcoming content budget.  
+User Groups - Keep your users organized by department or function.  
+
+More details for each feature, screenshots and documentation can be found on our website.  
+
+#####Revisionary
+
+Revisionary
+http://wordpress.org/plugins/revisionary/
+
+**Requires:** 3.0 or higher  
+**Compatible up to:** 3.6  
+**Last Updated:** 2013-8-19  
+**Downloads:** 17,757  
+
+4.7 out of 5 stars for 18 users.  
+
+Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
+
+Doesn't it seem like setting a published post/page to a future date should schedule your changes to be published on that date, instead of unpublishing it until that date?  
+
+Revisionary enables qualified users to submit changes to currently published posts or pages. Contributors also gain the ability to submit revisions to their own published content. These changes, if approved by an Editor, can be published immediately or scheduled for future publication.  
+Partial Feature List
+
+Pending Revisions allow designated users to suggest changes to a currently published post/page  
+Scheduled Revisions allow you to specify future changes to published content (either via Pending Revision approval or directly by fully qualified author/editor)  
+Enchanced Revision Management Form  
+Front-end preview display of Pending / Scheduled Revisions with "Publish Now" link  
+New WordPress role, "Revisor" is a moderated Editor  
+Works with blog-wide WordPress Roles, or in conjunction with Press Permit or Role Scoper  
+
+
+#####Duplicate Post
+
+Duplicate Post  
+http://wordpress.org/plugins/duplicate-post/  
+
+**Requires:** 3.0 or higher  
+**Compatible up to:** 3.3.2  
+**Last Updated:** 2012-5-4  
+**Downloads:** 371,136  
+
+4.8 out of 5 stars for 154 users  
+
+Clone posts and pages.  
+
+This plugin allows to clone a post or page, or edit it as a new draft.  
+
+In 'Edit Posts'/'Edit Pages', you can click on 'Clone' link below the post/page title: this will immediately create a copy and return to the list.  
+In 'Edit Posts'/'Edit Pages', you can click on 'New Draft' link below the post/page title.  
+On the post edit screen, you can click on 'Copy to a new draft' above "Cancel"/"Move to trash".  
+While viewing a post as a logged in user, you can click on 'Copy to a new draft' as a dropdown link under "Edit Post" in the admin bar.  
+
+2, 3 and 4 will lead to the edit page for the new draft: change what you want, click on 'Publish' and you're done.  
+
+Pay attention to the new behaviour! The first way now allows you to clone a post with a single click, speeding up your work if you have many posts to duplicate.  
+
+There is also a template tag, so you can put it in your templates and clone your posts/pages from the front-end. Clicking on the link will lead you to the edit page for the new draft, just like the admin bar link.  
+
+In the Options page under Settings it is now possible to choose what to copy:  
+the original post/page date  
+the original post/page status (draft, published, pending), when cloning from the posts list  
+the original post/page excerpt  
+the original post/page attachments (actual files won't be copied)  
+all the children of the original page  
+which taxonomies and custom fields  
+
+You can also set a prefix (or a suffix) to place before (or after) the title of the cloned post/page, and the roles allowed to clone posts or pages.  
+
+If you want to contribute to translate the plugin in languages other than English, there is a GlotPress translation project available (no registration required! — You can also send me an e-mail using the form on my website).  
+
 
 ####Monday is hackathon day, right?  
 
