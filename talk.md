@@ -12,6 +12,12 @@ Instead of building a GirHub 'for everyone else' however, I want to see what's a
 
 " there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
 
+http://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299  
+http://www.coding2learn.org/blog/2013/07/12/github-for-teachers/  
+http://www.marciovm.com/i-want-a-github-of-science/  
+
+
+
 ####WordPress 3.6 "Oscar"
 
 Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"][2] is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
@@ -50,6 +56,10 @@ Phew! I was about to say terminal there... Need to keep in mind that I want to w
 
 Tech jargon: non-developers don't understand branches, forks, commits, rebasing, cloning, etc.. and they don't care to learn.
 GitHub is moving Git functionality into the browser. GitHub diffs (changes in a file) are designed for code: line-by-line diffs instead of words, sentences, and paragraphs. But a little bird told me that this is changing.  
+
+teams, issues, pull requests, discovery, project management  
+In-browser editor  
+broader range of markdown/syntax support  
 
 ####So... What's out there?
 
