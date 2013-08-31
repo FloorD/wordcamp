@@ -4,6 +4,14 @@ As someone who incidentally writes about stuff with other people, I often encoun
 
 I use private repo's on GitHub to store my wp-files (not individual posts) and thus use version control for the sites I built with WordPress. And I always have a backup in 'the cloud'. I wish I could do the same for my posts.   
 
+I'm not the only one:  
+http://madebyloren.com/github-for-writers  
+"... despite how crucial GitHub is to the developer toolbox, I'm constantly wondering why the platform is limited to just code."  
+
+Instead of building a GirHub 'for everyone else' however, I want to see what's already out there that connects with WordPress, that I/we can help improve on.  
+
+" there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
+
 ####WordPress 3.6 "Oscar"
 
 Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"][2] is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
@@ -18,7 +26,7 @@ I've used both Git and Subversion for my development projects, and decided for G
 
 Templating for posts. 
 
-#####Branches  
+#####Branches  & pull requests
 
 When editing a post, in the background, you're working on your local copy. 
 
@@ -37,6 +45,11 @@ Bug trackers, project management tool... and WordPress.
 #####All in the termina-NATIVE app  
 
 Phew! I was about to say terminal there... Need to keep in mind that I want to work towards something that's intuitive for content creators, especially the ones who are not necessarily tech savvy. 
+
+#####Notifications?
+
+Tech jargon: non-developers don't understand branches, forks, commits, rebasing, cloning, etc.. and they don't care to learn.
+GitHub is moving Git functionality into the browser. GitHub diffs (changes in a file) are designed for code: line-by-line diffs instead of words, sentences, and paragraphs. But a little bird told me that this is changing.  
 
 ####So... What's out there?
 
