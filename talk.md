@@ -5,18 +5,17 @@ As someone who incidentally writes about stuff with other people, I often encoun
 I use private repo's on GitHub to store my wp-files (not individual posts) and thus use version control for the sites I built with WordPress. And I always have a backup in 'the cloud'. I wish I could do the same for my posts.   
 
 I'm not the only one:  
-http://madebyloren.com/github-for-writers  
+Loren Burton on how he's building [GitHub for Writers][10].
+  
 "... despite how crucial GitHub is to the developer toolbox, I'm constantly wondering why the platform is limited to just code."  
 
-Instead of building a GirHub 'for everyone else' however, I want to see what's already out there that connects with WordPress, that I/we can help improve on.  
+Instead of building a GitHub 'for everyone else' however, I want to see what's already out there that connects with WordPress, that I/we can help improve on.  
 
-" there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
+"... there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
 
-http://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299  
-http://www.coding2learn.org/blog/2013/07/12/github-for-teachers/  
-http://www.marciovm.com/i-want-a-github-of-science/  
-
-
+[The limitations of GitHub for writers][11]  
+[GitHub for teachers][12]  
+[I want a GitHub of science][13]  
 
 ####WordPress 3.6 "Oscar"
 
@@ -201,8 +200,6 @@ This version constitutes an initial release designed to showcase the plugin's co
 For more information, or to contribute to this documentation, please visit the [Post Forking project wiki][6].  
 
 #####Edit Flow
-http://wordpress.org/plugins/edit-flow/  
-
 **Requires:** 3.4 or higher  
 **Compatible up to:** 3.5.2  
 **Last Updated:** 2013-1-31  
@@ -210,7 +207,7 @@ http://wordpress.org/plugins/edit-flow/
 
 4.9 out of 5 stars for 72 users  
 
-Edit Flow empowers you to collaborate with your editorial team inside WordPress. We've made it modular so you can customize it to your needs:  
+[Edit Flow][7] empowers you to collaborate with your editorial team inside WordPress. We've made it modular so you can customize it to your needs:  
 
 Calendar - A convenient month-by-month look at your content.  
 Custom Statuses - Define the key stages to your workflow.  
@@ -224,9 +221,6 @@ More details for each feature, screenshots and documentation can be found on our
 
 #####Revisionary
 
-Revisionary
-http://wordpress.org/plugins/revisionary/
-
 **Requires:** 3.0 or higher  
 **Compatible up to:** 3.6  
 **Last Updated:** 2013-8-19  
@@ -234,7 +228,7 @@ http://wordpress.org/plugins/revisionary/
 
 4.7 out of 5 stars for 18 users.  
 
-Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
+[Revisionary][8]. Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
 
 Doesn't it seem like setting a published post/page to a future date should schedule your changes to be published on that date, instead of unpublishing it until that date?  
 
@@ -251,8 +245,7 @@ Works with blog-wide WordPress Roles, or in conjunction with Press Permit or Rol
 
 #####Duplicate Post
 
-Duplicate Post  
-http://wordpress.org/plugins/duplicate-post/  
+[Duplicate Post][9]
 
 **Requires:** 3.0 or higher  
 **Compatible up to:** 3.3.2  
@@ -299,3 +292,10 @@ I'd love to help WordPress create version control for its users, or bring it to 
 [4]: http://wordpress.org/plugins/post-forking/
 [5]: http://ben.balter.com/2012/02/28/github-for-journalism-what-wordpress-post-forking-could-do-to-editorial-workflows/
 [6]: https://github.com/post-forking/post-forking/wiki
+[7]: http://wordpress.org/plugins/edit-flow/  
+[8]: http://wordpress.org/plugins/revisionary/
+[9]: http://wordpress.org/plugins/duplicate-post/  
+[10]: http://madebyloren.com/github-for-writers
+[11]: http://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299  
+[12]: http://www.coding2learn.org/blog/2013/07/12/github-for-teachers/
+[13]: http://www.marciovm.com/i-want-a-github-of-science/  
