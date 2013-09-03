@@ -17,6 +17,26 @@ Instead of building a GitHub 'for everyone else' however, I want to see what's a
 [GitHub for teachers][12]  
 [I want a GitHub of science][13]  
 
+
+From Collaborative Coding to Wedding Invitations: GitHub Is Going Mainstream  
+http://www.wired.com/wiredenterprise/2013/09/github-for-anything/  
+
+Software engineer Bubby Rayber, who turned to GitHub to track and plan his wedding.  
+
+“The open, collaborative workflow we have created for software development is so appealing that it’s gaining traction for non-software projects that require significant collaboration,” says GitHub cofounder and CEO Tom Preston-Werner.  
+
+Last year, Twitter’s top lawyer, Benjamin Lee, used GitHub to draft a new licensing agreement for his company’s engineers, and before long, other GitHub users had fixed a handful of minor grammatical errors. Then Trishan Arul, head of business operations at Twitter cofounder Evan Williams’ startup incubator, Obvious, suggested some text that he wanted Lee to incorporate, and Lee did.
+
+In a completely different realm, Adam Wood, music director of an Episcopal church in Texas, is uploading a compendium of Gregorian chants to GitHub. He thinks the service is the perfect place for choir directors to share and improve all kinds of music.
+
+With 3.4 million users, the five-year-old site is a runaway hit in the hacker community, the go-to place for coders to show off pet projects and crowdsource any improvements. But the company has grander ambitions: It wants to change the way people work. It’s starting with software developers for sure, but maybe one day anyone who edits text in one form or another — lawyers, writers, and civil servants — will do it the GitHub way.   
+
+To people who do not program, a visit to GitHub is a daunting run through the hacker jargon gauntlet. There are repositories, or “repos,” big chunks of code or text that get edited and “forked.” There are smaller snippets, called Gists. It’s tough for non-technical users to figure things out, but for engineers, this stuff is candy.   
+
+
+
+BUT  
+
 ####WordPress 3.6 "Oscar"
 
 Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"][2] is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
