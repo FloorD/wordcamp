@@ -1,11 +1,20 @@
-###Working towards great version control for content creators
+#Working towards great version control for content creators
 
+##Hi
+My name is **Floor Drees**. I was actually born here, in Leiden.  
+Two years ago I exchanged Rotterdam for Vienna to work at a startup that does 'stuff' with reviews and is **not** called Yelp. I had worked as a community manager for agencies and startups for 5 years, and here I'd make a little step up, becoming head of community management. Partly because I had been doing more or less the same thing over and over for years, ie community management, because I wanted to 'make stuff' again (I have a background in design) and because I worked closely together with the developers there, I decided I wanted to pick up on something new. That something new was learning to program. As this startup's stack used Ruby on Rails, there was no real decision process here on what language I'd be learning. Cool thing is that many of my developer coworkers had coached at Rails Girls events, and I was familiar with their program. I started going though their courses, in August last year, supported by one of my coworkers. Little later my company supported me to work as a junior developer one day a week, mainly documenting bugs talking to marketing and communication, and actually fixing bugs.   
+I organized Rails Girls Rotterdam in January, [Rails Girls The Hague](http://railsgirls.com/thehague) 3 weeks ago, I co-organize the [Ruby user group meetups in Vienna](http://vienna-rb.at), the [PyLadies workshops in Vienna](http://www.meetup.com/PyLadies-Vienna/) and I co-organize the WordPress user group meetups in Vienna, although most of the credits for that one should go to Paolo Belcastro. 
+
+I currently work at [Usersnap](http://usersnap.com), a screenshot tool for web developers, that helps collect better bug reports. I promised them a shameless plug for [our WordPress plugin](http://wordpress.org/plugins/usersnap/), so here we go... Annnd it's over.  
+
+
+##My problem with WordPress
 As someone who incidentally writes about stuff with other people, I often encounter the same problem. You either email tiny changes to your article to the one who’s ultimately responsible for the website, which is bound to go wrong. Or you log into your CMS, make some changes to your piece and save it, while one of the other editors does the exact same thing, just using another shiny laptop. Changes get lost. Stuff gets added twice and you end up frustrated because the preview doesn’t reflect your work. Now this is annoying as it is, but if you program a bit on the side (like I do) and you use version control, you know that there is a solution for that. For WordCamp I'd love to gather my thoughts on what would make a great version control tool for WordPress and test [existing plugins][1] by these requirements.
 
 I use private repo's on GitHub to store my wp-files (not individual posts) and thus use version control for the sites I built with WordPress. And I always have a backup in 'the cloud'. I wish I could do the same for my posts.   
 
 I'm not the only one:  
-Loren Burton on how he's building [GitHub for Writers][10].
+Loren Burton on how he's building [GitHub for Writers](http://madebyloren.com/github-for-writers).
   
 "... despite how crucial GitHub is to the developer toolbox, I'm constantly wondering why the platform is limited to just code."  
 
@@ -13,17 +22,11 @@ Instead of building a GitHub 'for everyone else' however, I want to see what's a
 
 "... there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
 
-[The limitations of GitHub for writers][11]  
-[GitHub for teachers][12]  
-[I want a GitHub of science][13]  
+[The limitations of GitHub for writers](http://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299)  
+[GitHub for teachers](http://www.coding2learn.org/blog/2013/07/12/github-for-teachers/)  
+[I want a GitHub of science](http://www.marciovm.com/i-want-a-github-of-science/)
 
-
-From Collaborative Coding to Wedding Invitations: GitHub Is Going Mainstream  
-http://www.wired.com/wiredenterprise/2013/09/github-for-anything/  
-
-Software engineer Bubby Rayber, who turned to GitHub to track and plan his wedding.  
-
-“The open, collaborative workflow we have created for software development is so appealing that it’s gaining traction for non-software projects that require significant collaboration,” says GitHub cofounder and CEO Tom Preston-Werner.  
+And then there was THE Wired article: [From Collaborative Coding to Wedding Invitations: GitHub Is Going Mainstream](http://www.wired.com/wiredenterprise/2013/09/github-for-anything/). The guy they refer to in their title is software engineer Bubby Rayber, who turned to GitHub to track and plan his wedding. “The open, collaborative workflow we have created for software development is so appealing that it’s gaining traction for non-software projects that require significant collaboration,” says GitHub cofounder and CEO Tom Preston-Werner.  
 
 Last year, Twitter’s top lawyer, Benjamin Lee, used GitHub to draft a new licensing agreement for his company’s engineers, and before long, other GitHub users had fixed a handful of minor grammatical errors. Then Trishan Arul, head of business operations at Twitter cofounder Evan Williams’ startup incubator, Obvious, suggested some text that he wanted Lee to incorporate, and Lee did.
 
@@ -33,17 +36,23 @@ With 3.4 million users, the five-year-old site is a runaway hit in the hacker co
 
 To people who do not program, a visit to GitHub is a daunting run through the hacker jargon gauntlet. There are repositories, or “repos,” big chunks of code or text that get edited and “forked.” There are smaller snippets, called Gists. It’s tough for non-technical users to figure things out, but for engineers, this stuff is candy.   
 
-
-
-BUT  
-
-####WordPress 3.6 "Oscar"
+###WordPress 3.6 "Oscar"
 
 Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"][2] is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
 "Revisions save every change and the new interface allows you to scroll easily through changes to see line-by-line who changed what and when."  
 "Post Locking and Augmented Autosave will especially be a boon to sites where more than a single author is working on a post. Each author now has their own autosave stream, which stores things locally as well as on the server (so much harder to lose something) and there’s an interface for taking over editing of a post, as demonstrated beautifully by our bearded buddies in the video above."  
 
-####Version Control the way I like it
+From the first word you write, WordPress saves every change. Each revision is always at your fingertips. Text is highlighted as you scroll through revisions at lightning speed, so you can see what changes have been made along the way.
+
+It’s easy to compare two revisions from any point in time, and to restore a revision and go back to writing. Now you can be confident that no mistake is permanent.
+
+**Improved Autosaves**  
+Never lose a word you’ve written. Autosaving is now even better; whether your power goes out, your browser crashes, or you lose your internet connection, your content is safe.
+
+**Better Post Locking**  
+Always know who’s editing with live updates that appear in the list of posts. And if someone leaves for lunch with a post open, you can take over where they left off.
+
+###Version Control the way I like it
 
 I've used both Git and Subversion for my development projects, and decided for GitHub for it's open source culture and easy to manage process. A lot of the feature request will therefor have a GitHub flavor. You'll need to excuse me for being a fangirl. 
 
@@ -315,7 +324,4 @@ I'd love to help WordPress create version control for its users, or bring it to 
 [7]: http://wordpress.org/plugins/edit-flow/  
 [8]: http://wordpress.org/plugins/revisionary/
 [9]: http://wordpress.org/plugins/duplicate-post/  
-[10]: http://madebyloren.com/github-for-writers
-[11]: http://www.chronicle.com/blogs/profhacker/the-limitations-of-github-for-writers/48299  
-[12]: http://www.coding2learn.org/blog/2013/07/12/github-for-teachers/
-[13]: http://www.marciovm.com/i-want-a-github-of-science/  
+
