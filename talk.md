@@ -95,7 +95,7 @@ broader range of markdown/syntax support
 
 **Requires:** 3.2 or higher  
 **Compatible up to:** 3.6  
-**Last Updated:** 2013-7-  3
+**Last Updated:** 2013-7-3
 **Downloads:** 44,661  
 
 4.9 out of 5 stars for 38 users  
