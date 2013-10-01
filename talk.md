@@ -36,20 +36,18 @@ In a completely different realm, Adam Wood, music director of an Episcopal churc
 
 With 3.4 million users, the five-year-old site is a runaway hit in the hacker community, the go-to place for coders to show off pet projects and crowdsource any improvements. But the company has grander ambitions: It wants to change the way people work. It’s starting with software developers for sure, but maybe one day anyone who edits text in one form or another — lawyers, writers, and civil servants — will do it the GitHub way.   
 
-To people who do not program, a visit to GitHub is a daunting run through the hacker jargon gauntlet. There are repositories, or “repos,” big chunks of code or text that get edited and “forked.” There are smaller snippets, called Gists. It’s tough for non-technical users to figure things out, but for engineers, this stuff is candy.   
+To people who do not program, a visit to GitHub is a daunting run through the hacker jargon gauntlet. There are repositories, or “repos,” big chunks of code or text that get edited and “forked.” There are smaller snippets, called Gists. It’s tough for non-technical users to figure things out, but for engineers, this stuff is candy. Tech jargon: non-developers don't understand branches, forks, commits, rebasing, cloning, etc.. and they don't care to learn.
+GitHub is moving Git functionality into the browser. GitHub diffs (changes in a file) are designed for code: line-by-line diffs instead of words, sentences, and paragraphs. But a little bird told me that this is changing.    
 
 ###WordPress 3.6 "Oscar"
 
 Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"](http://wordpress.org/news/2013/08/oscar/) is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
 Revisions save every change and the new interface allows you to scroll easily through changes to see line-by-line who changed what and when. Post Locking and Augmented Autosave will especially be a boon to sites where more than a single author is working on a post. Each author now has their own autosave stream, which stores things locally as well as on the server (so much harder to lose something) and there’s an interface for taking over editing of a post.  
 
-From the first word you write, WordPress saves every change. Text is highlighted as you scroll through revisions at lightning speed, so you can see what changes have been made along the way.
-
-It’s easy to compare two revisions from any point in time, and to restore a revision and go back to writing. No mistake is permanent.
-Autosaving is got heaps better; whether your power goes out, your browser crashes, or you lose your internet connection, your content is safe.
-
-**Better Post Locking**  
-Always know who’s editing with live updates that appear in the list of posts. And if someone leaves for lunch with a post open, you can take over where they left off.
+From the first word you write, WordPress saves every change. Text is highlighted as you scroll through revisions at lightning speed, so you can see what changes have been made along the way.  
+It’s easy to compare two revisions from any point in time, and to restore a revision and go back to writing. No mistake is permanent.  
+Autosaving is got heaps better; whether your power goes out, your browser crashes, or you lose your internet connection, your content is safe.  
+Always know who’s editing with live updates that appear in the list of posts. And if someone leaves for lunch with a post open, you can take over where they left off.  
 
 ###Version Control the way I like it
 
@@ -57,38 +55,35 @@ I've used both Git and Subversion for my development projects, and decided for G
 
 #####Forking / cloning  
 
-Templating for posts. 
+Templating for posts. In the software environment, the term "fork" means you make an identical copy of something, that ends up as /me/forkedproject. Multiple users could fork a code base, or in our case a post or a page and make it their own. As in: use it to their use case, or improve on their version of your project and...  
 
 #####Branches  & pull requests
 
-When editing a post, in the background, you're working on your local copy. 
+... maybe send a pull request. As said, when editing a post, in the background, you'd actually be working on your local copy. You can suggest your changes to the admin of a group blog or website.  
 
 #####Commenting on changes  
 
-Both your own' and others.
+Commenting on changes, both your own' and others, helps to get everyone in the project on the same page - quite literally. You might want to explain why you deleted a whole paragraph, or why you find that cat picture less fitting. Rather than  using email for such things, why not keep it in one place? Your plugin installation / WordPress dashboard.  
 
 #####Committing (naming changes)  
 
-'single sign off'
+Potentially even committing your changes, 'single signing off', registering your alterations and takig responsibility for your changes.
 
 ##### Task lists (issues) with assigning possibilities
 
-Bug trackers, project management tool... and WordPress. 
+Task lists (issues) with assigning possibilities. Why use a bug trackers, a project management tool... and WordPress, right? Ok, for smaller blogs this might not even a pressing issue, but imagine if it would be possible!  
 
 #####All in the termina-NATIVE app  
 
-Phew! I was about to say terminal there... Need to keep in mind that I want to work towards something that's intuitive for content creators, especially the ones who are not necessarily tech savvy. 
+Phew! I was about to say terminal there... I need to keep in mind that I want to work towards something that's intuitive for content creators, especially the ones who are not necessarily tech savvy. 
 
 #####Notifications?
 
-Tech jargon: non-developers don't understand branches, forks, commits, rebasing, cloning, etc.. and they don't care to learn.
-GitHub is moving Git functionality into the browser. GitHub diffs (changes in a file) are designed for code: line-by-line diffs instead of words, sentences, and paragraphs. But a little bird told me that this is changing.  
+I'd like to receive notifications when my blog mates sign of a change or respond to text that I've written or altered. Same goes for issues/tasks that get added and pull requests that get... pulled? But maybe I'm feature freaking here.   
 
-teams, issues, pull requests, discovery, project management  
-In-browser editor  
-broader range of markdown/syntax support  
+I actually wanted to put 'broader range of markdown/syntax support' in here as well... but that's a whole different topic, maybe for a next WordCamp ;)   
 
-####So... What's out there?
+####So... What's out there that slighty resembles what I want/need?
 
 #####WP Document Revisions
 
@@ -101,41 +96,20 @@ broader range of markdown/syntax support
 
 [WP Document Revisions](http://wordpress.org/plugins/wp-document-revisions/) is a document management and version control plugin. Built for time-sensitive and mission-critical projects, teams can collaboratively edit files of any format -- text documents, spreadsheets, images, sheet music... anything -- all the while, seamlessly tracking the document's progress as it moves through your organization's existing workflow.
 
-**WP Document Revisions is three things:**  
-
+**WP Document Revisions is**  
 A document management system (DMS), to track, store, and organize files of any format  
 A collaboration tool to empower teams to collaboratively draft, edit, and refine documents  
 A file hosting solution to publish and securely deliver files to a team, to clients, or to the public  
 
-Powerful Collaboration Tools - With great power does not have to come great complexity. Based on a simple philosophy of putting powerful but intuitive tools in the hands of managers and content creators, WP Document Revisions leverages many of the essential WordPress features that, for more than eight years, have been tested and proven across countless industries -- posts, attachments, revisions, taxonomies, authentication, and permalinks -- to make collaborating on the creation and publication of documents a natural endeavor. Think of it as an open-source and more intuitive version of the popular Microsoft collaboration suite, Sharepoint.  
-
-Document History - At each step of the authoring process, WP Document Revisions gives you an instant snapshot of your team's progress and the document's history. It even gives you the option to revert back to a previous revision -- so don't fret if you make a mistake -- or receive updates on changes to the document right in your favorite feed reader.  
-
-Access Control - Each document is given a persistent URL (e.g., yourcompany.com/documents/2011/08/TPS-Report.doc) which can be private (securely delivered only to members of your organization), password protected (available only to those you select such as clients or contractors), or public (published and hosted for the world to see). If you catch a typo and upload a new version, that URL will continue to point to the latest version, regardless of how many changes you make.  
-
-Enterprise Security - Worried about storing propriety or sensitive information? WP Document Revisions was built from the first line of code with government- and enterprise-grade security in mind. Each file is masked behind an anonymous 128-bit MD5 hash as soon as it touches the server, and requests for files are transparently routed through WordPress's time-tested URL rewriting, authentication, and permission systems (which can even integrate with existing enterprise active directory or LDAP servers). Need more security? WP Document Revisions allows you to store documents in a folder above the htdocs or public_html web root, further ensuring that only those you authorize have access to your work.  
-
-Customization - WP Document Revisions recognizes that no two teams are identical, and as a result, molds to your firm's needs, not the other way around. Need to track additional information associated with a document? Departments, editors, issues, sections, even arbitrary key-value pairs -- whatever you can throw at it, it can handle. Development and customization costs are further minimized by its extensive plugin API, and the WordPress Custom Taxonomy Generator makes it easy for even the uninitiated to add custom taxonomies to documents. Need an audit trail to track check-ins and check-outs? User-level permissions based on the document's state or another custom taxonomy? Support for third-party encryption? Check out the WP Document Revisions Code Cookbook for sample code. Looking for even more advanced control of your workflow? WP Document Revisions will detect the popular workflow plugin Edit Flow, if installed, and will automatically pull Edit Flow’s advanced workflow management tools into WP Document Revisions. Simply put, virtually every aspect of the plugin's functionality from workflow states to user-level permissions can be fully customized to your team's unique needs.  
-
-Future Proof - Switching costs a concern? WP Document Revisions is built with tomorrow's uncertainty in mind. Equally at home in an in-house server room as it is in the cloud, moving individual files or entire document repositories in and out of WP Document Revisions is a breeze (history and all). And since the software is open-source, you can easily add tools to automate the process of moving to or integrating with future third-party systems.  
-
-**The Vitals:** 
-
+**The Vitals** 
 Support for any file type (docs, spreadsheets, images, PDFs -- anything!)  
-Securely stores unlimited revisions of your business's essential files  
 Provides a full file history in the form of a revision log, accessible via RSS  
 Helps you track and organize documents as they move through your organization's existing workflow  
 Each file gets a permanent, authenticated URL that always points to the latest version  
 Each revision gets its own unique url (e.g.,TPS-Report-revision-3.doc) accessible only to those you deem  
 Files are intuitively checked out and locked to prevent revisions from colliding  
-Toggle documents between public, private, and password protected with a single mouse click  
-Runs in-house or in the cloud  
-Secure: filenames are hashed on upload and files are only accessible through WordPress's proven authentication system  
-Can move document upload folder to location outside of web root to further ensure government- and enterprise-grade security  
 Documents and Revisions shortcodes, Recently Revised Documents widget  
-Multisite and Windows (XAMPP) support  
-French and Spanish language support (easily translated to your language)  
-Integration with Edit Flow  
+Integration with **Edit Flow**  
 Recently Revised Documents Widget, shortcodes, and templating functions for front-end integration  
 
 **Features Available via the Code Cookbook:**  
@@ -151,11 +125,6 @@ Track Changes - Auto-generates and appends revision summaries for changes to tax
 Remove Workflow States - Completely removes Workflow state taxonomy backend and UI  
 Change Tracker - Auto-generates and appends revision summaries for changes to taxonomies, title, and visibility  
 
-**Translations:**  
-French, Spanish, Norwegian, German, Chinese, Swedish, Czech, Italian, Russian, Dutch.  
-
-WP Document Revisions was developed by a law student and a business student with a grant from Google, and in close coordination with and under the watchful eye of WordPress.org's lead developers (Although neither relationship should imply an endorsement). Special thanks to Jon Cave, Aaron Jorbin, Mitcho Erlewine, and Andrew Nacin for their guidance.
-
 #####Post Forking
 
 **Requires:** 3.5 or higher  
@@ -165,9 +134,8 @@ WP Document Revisions was developed by a law student and a business student with
 
 5 out of 5 stars (for 13 users).  
 
-[Post Forking](http://wordpress.org/plugins/post-forking/) allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress.  
-
-WordPress Post Forking allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress content curation. This can be used, for example, to allow external users (such as visitors to your site) or internal users (such as other authors) with the ability to submit proposed revisions. It can even be used on smaller or single-author sites to enable post authors to edit published posts without their changes appearing immediately. If you're familiar with Git, or other decentralized version control systems, you're already familiar with WordPress post forking.  
+[Post Forking](http://wordpress.org/plugins/post-forking/) allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress content curation. This can be used, for example, to allow external users (such as visitors to your site) or internal users (such as other authors) with the ability to submit proposed revisions. It can even be used on smaller or single-author sites to enable post authors to edit published posts without their changes appearing immediately.   
+"If you're familiar with Git, or other decentralized version control systems, you're already familiar with WordPress post forking."  
 
 **How might you use it?**  
 Allowing users without edit or publish post capabilities to edit and submit changes to content (similar to GitHub’s pull request system)  
@@ -220,13 +188,6 @@ Automatically merges (non-conflicted) changes (based on existing diff engine)
     - Conflicted changes – note conflicts in fork and prepare for re-merge  
 
 
-
-**Project Status**  
-This version constitutes an initial release designed to showcase the plugin's core functionality and is intended to be improved upon with additional features and refinements as the project evolves. Please consider contributing your time to help improve the project.  
-
-**More Information**  
-For more information, or to contribute to this documentation, please visit the [Post Forking project wiki][6].  
-
 #####Edit Flow
 **Requires:** 3.4 or higher  
 **Compatible up to:** 3.5.2  
@@ -245,7 +206,6 @@ Notifications - Receive timely updates on the content you're following.
 Story Budget - View your upcoming content budget.  
 User Groups - Keep your users organized by department or function.  
 
-More details for each feature, screenshots and documentation can be found on our website.  
 
 #####Revisionary
 
@@ -256,12 +216,7 @@ More details for each feature, screenshots and documentation can be found on our
 
 4.7 out of 5 stars for 18 users.  
 
-[Revisionary](http://wordpress.org/plugins/revisionary/). Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
-
-Doesn't it seem like setting a published post/page to a future date should schedule your changes to be published on that date, instead of unpublishing it until that date?  
-
-Revisionary enables qualified users to submit changes to currently published posts or pages. Contributors also gain the ability to submit revisions to their own published content. These changes, if approved by an Editor, can be published immediately or scheduled for future publication.  
-Partial Feature List
+[Revisionary](http://wordpress.org/plugins/revisionary/). Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication? Doesn't it seem like setting a published post/page to a future date should schedule your changes to be published on that date, instead of unpublishing it until that date? Revisionary enables qualified users to submit changes to currently published posts or pages. Contributors also gain the ability to submit revisions to their own published content. These changes, if approved by an Editor, can be published immediately or scheduled for future publication.   
 
 Pending Revisions allow designated users to suggest changes to a currently published post/page  
 Scheduled Revisions allow you to specify future changes to published content (either via Pending Revision approval or directly by fully qualified author/editor)  
@@ -273,8 +228,6 @@ Works with blog-wide WordPress Roles, or in conjunction with Press Permit or Rol
 
 #####Duplicate Post
 
-[Duplicate Post](http://wordpress.org/plugins/duplicate-post/)
-
 **Requires:** 3.0 or higher  
 **Compatible up to:** 3.3.2  
 **Last Updated:** 2012-5-4  
@@ -282,9 +235,7 @@ Works with blog-wide WordPress Roles, or in conjunction with Press Permit or Rol
 
 4.8 out of 5 stars for 154 users  
 
-Clone posts and pages.  
-
-This plugin allows to clone a post or page, or edit it as a new draft.  
+[Duplicate Post](http://wordpress.org/plugins/duplicate-post/) clones posts and pages. This plugin allows to clone a post or page, or edit it as a new draft.  
 
 In 'Edit Posts'/'Edit Pages', you can click on 'Clone' link below the post/page title: this will immediately create a copy and return to the list.  
 In 'Edit Posts'/'Edit Pages', you can click on 'New Draft' link below the post/page title.  
@@ -307,12 +258,11 @@ which taxonomies and custom fields
 
 You can also set a prefix (or a suffix) to place before (or after) the title of the cloned post/page, and the roles allowed to clone posts or pages.  
 
-If you want to contribute to translate the plugin in languages other than English, there is a GlotPress translation project available (no registration required! — You can also send me an e-mail using the form on my website).  
-
-
 ####Monday is hackathon day, right?  
 
-I'd love to help WordPress create version control for its users, or bring it to GitHub standards. But I need help for that. Please find me in the break if you'd like to work on this as well! 
+I'd love to help WordPress create version control for its users, or bring it to GitHub standards. But I need help for that. Please find me in the break if you'd like to work on this as well! I'm thinking about contributing to Post Forking (as it also integrates with Edit Flow), but if one of you is working on the next big thing, I'd love to help.  
+
+###Thank you. 
 
 
 
