@@ -1,15 +1,17 @@
 #Working towards great version control for content creators
 
-##Hi
+##Hi, thank you for choosing this track.
 My name is **Floor Drees**. I was actually born here, in Leiden.  
 Two years ago I exchanged Rotterdam for Vienna to work at a startup that does 'stuff' with reviews and is **not** called Yelp. I had worked as a community manager for agencies and startups for 5 years, and here I'd make a little step up, becoming head of community management. Partly because I had been doing more or less the same thing over and over for years, ie community management, because I wanted to 'make stuff' again (I have a background in design) and because I worked closely together with the developers there, I decided I wanted to pick up on something new. That something new was learning to program. As this startup's stack used Ruby on Rails, there was no real decision process here on what language I'd be learning. Cool thing is that many of my developer coworkers had coached at Rails Girls events, and I was familiar with their program. I started going though their courses, in August last year, supported by one of my coworkers. Little later my company supported me to work as a junior developer one day a week, mainly documenting bugs talking to marketing and communication, and actually fixing bugs.   
-I organized Rails Girls Rotterdam in January, [Rails Girls The Hague](http://railsgirls.com/thehague) 3 weeks ago, I co-organize the [Ruby user group meetups in Vienna](http://vienna-rb.at), the [PyLadies workshops in Vienna](http://www.meetup.com/PyLadies-Vienna/) and I co-organize the WordPress user group meetups in Vienna, although most of the credits for that one should go to Paolo Belcastro. 
+I organized Rails Girls Rotterdam in January, [Rails Girls The Hague](http://railsgirls.com/thehague) 3 weeks ago, I co-organize the [Ruby user group meetups in Vienna](http://vienna-rb.at), the [PyLadies workshops in Vienna](http://www.meetup.com/PyLadies-Vienna/) and I co-organize the WordPress user group meetups in Vienna, although most of the credits for that one should go to Paolo Belcastro.   
+
+I build and maintain(ed) multiple WordPress sites ever since I discovered blogging early 2008. Fun fact: back then I wrote for the group blog (on recruitment) from my dad. And as an art academy student I never really explored all this online content stuff so I'd actually email my blogs to him, and he'd post them on WordPress under my name.   
 
 I currently work at [Usersnap](http://usersnap.com), a screenshot tool for web developers, that helps collect better bug reports. I promised them a shameless plug for [our WordPress plugin](http://wordpress.org/plugins/usersnap/), so here we go... Annnd it's over.  
 
 
 ##My problem with WordPress
-As someone who incidentally writes about stuff with other people, I often encounter the same problem. You either email tiny changes to your article to the one who’s ultimately responsible for the website, which is bound to go wrong. Or you log into your CMS, make some changes to your piece and save it, while one of the other editors does the exact same thing, just using another shiny laptop. Changes get lost. Stuff gets added twice and you end up frustrated because the preview doesn’t reflect your work. Now this is annoying as it is, but if you program a bit on the side (like I do) and you use version control, you know that there is a solution for that. For WordCamp I'd love to gather my thoughts on what would make a great version control tool for WordPress and test [existing plugins][1] by these requirements.
+As someone who incidentally writes about stuff with other people, I often encounter the same problem. You either email tiny changes to your article to the one who’s ultimately responsible for the website, which is bound to go wrong. Or you log into your CMS, make some changes to your piece and save it, while one of the other editors does the exact same thing, just using another shiny laptop. Changes get lost. Stuff gets added twice and you end up frustrated because the preview doesn’t reflect your work. Now this is annoying as it is, but if you program a bit on the side (like I do) and you use version control, you know that there is a solution for that. I'd love walk you through what I think would make a great version control tool for WordPress and test existing plugins by these requirements.
 
 I use private repo's on GitHub to store my wp-files (not individual posts) and thus use version control for the sites I built with WordPress. And I always have a backup in 'the cloud'. I wish I could do the same for my posts.   
 
@@ -18,7 +20,7 @@ Loren Burton on how he's building [GitHub for Writers](http://madebyloren.com/gi
   
 "... despite how crucial GitHub is to the developer toolbox, I'm constantly wondering why the platform is limited to just code."  
 
-Instead of building a GitHub 'for everyone else' however, I want to see what's already out there that connects with WordPress, that I/we can help improve on.  
+Instead of building a GitHub 'for everyone/everything else' however, I want to see what's already out there that connects with WordPress, that I/we can help improve on. I'm lazy.  
 
 "... there can be multiple pull requests and multiple versions of the code floating around simultaneously (thanks, Git!), but everything eventually ends up in single place (master branch)."  
 
@@ -38,16 +40,13 @@ To people who do not program, a visit to GitHub is a daunting run through the ha
 
 ###WordPress 3.6 "Oscar"
 
-Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"][2] is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
-"Revisions save every change and the new interface allows you to scroll easily through changes to see line-by-line who changed what and when."  
-"Post Locking and Augmented Autosave will especially be a boon to sites where more than a single author is working on a post. Each author now has their own autosave stream, which stores things locally as well as on the server (so much harder to lose something) and there’s an interface for taking over editing of a post, as demonstrated beautifully by our bearded buddies in the video above."  
+Flagship feature (if you'd ask me) of [WordPress 3.6 "Oscar"](http://wordpress.org/news/2013/08/oscar/) is the revamped **Revisions**, **Post Locking** and **Augmented Autosave**:  
+Revisions save every change and the new interface allows you to scroll easily through changes to see line-by-line who changed what and when. Post Locking and Augmented Autosave will especially be a boon to sites where more than a single author is working on a post. Each author now has their own autosave stream, which stores things locally as well as on the server (so much harder to lose something) and there’s an interface for taking over editing of a post.  
 
-From the first word you write, WordPress saves every change. Each revision is always at your fingertips. Text is highlighted as you scroll through revisions at lightning speed, so you can see what changes have been made along the way.
+From the first word you write, WordPress saves every change. Text is highlighted as you scroll through revisions at lightning speed, so you can see what changes have been made along the way.
 
-It’s easy to compare two revisions from any point in time, and to restore a revision and go back to writing. Now you can be confident that no mistake is permanent.
-
-**Improved Autosaves**  
-Never lose a word you’ve written. Autosaving is now even better; whether your power goes out, your browser crashes, or you lose your internet connection, your content is safe.
+It’s easy to compare two revisions from any point in time, and to restore a revision and go back to writing. No mistake is permanent.
+Autosaving is got heaps better; whether your power goes out, your browser crashes, or you lose your internet connection, your content is safe.
 
 **Better Post Locking**  
 Always know who’s editing with live updates that appear in the list of posts. And if someone leaves for lunch with a post open, you can take over where they left off.
@@ -94,13 +93,13 @@ broader range of markdown/syntax support
 #####WP Document Revisions
 
 **Requires:** 3.2 or higher  
-**Compatible up to:** 3.6  
+**Compatible up to:** 3.6.1  
 **Last Updated:** 2013-7-3
-**Downloads:** 44,661  
+**Downloads:** 47,064  
 
-4.9 out of 5 stars for 38 users  
+4.9 out of 5 stars for 39 users  
 
-[WP Document Revisions][3] is a document management and version control plugin. Built for time-sensitive and mission-critical projects, teams can collaboratively edit files of any format -- text documents, spreadsheets, images, sheet music... anything -- all the while, seamlessly tracking the document's progress as it moves through your organization's existing workflow.
+[WP Document Revisions](http://wordpress.org/plugins/wp-document-revisions/) is a document management and version control plugin. Built for time-sensitive and mission-critical projects, teams can collaboratively edit files of any format -- text documents, spreadsheets, images, sheet music... anything -- all the while, seamlessly tracking the document's progress as it moves through your organization's existing workflow.
 
 **WP Document Revisions is three things:**  
 
@@ -159,14 +158,14 @@ WP Document Revisions was developed by a law student and a business student with
 
 #####Post Forking
 
-**Requires:** 3.4 or higher  
-**Compatible up to:** 3.5.2  
-**Last Updated** 2012-9-30  
-**Downloads:** 1,012  
+**Requires:** 3.5 or higher  
+**Compatible up to:** 3.6.1  
+**Last Updated** 2013-9-26 
+**Downloads:** 1,288  
 
 5 out of 5 stars (for 13 users).  
 
-[Post Forking][4] allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress.  
+[Post Forking](http://wordpress.org/plugins/post-forking/) allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress.  
 
 WordPress Post Forking allows users to "fork" or create an alternate version of content to foster a more collaborative approach to WordPress content curation. This can be used, for example, to allow external users (such as visitors to your site) or internal users (such as other authors) with the ability to submit proposed revisions. It can even be used on smaller or single-author sites to enable post authors to edit published posts without their changes appearing immediately. If you're familiar with Git, or other decentralized version control systems, you're already familiar with WordPress post forking.  
 
@@ -189,7 +188,7 @@ Conflict - When a post is forked if a given line is changed on the fork, and tha
 
 **Why this plugin?**  
 
-[GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows][5]  
+[GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows](http://ben.balter.com/2012/02/28/github-for-journalism-what-wordpress-post-forking-could-do-to-editorial-workflows/)  
 
 Nowadays, GitHub hosts more than just source code. Books, transcripts of talks and even whole constituents.   
 
@@ -199,7 +198,7 @@ http://www.wired.com/wiredenterprise/2012/02/github-revisited/
 
 "People were fixing the same problem over and over again. Some of their changes couldn’t be merged automatically, but they included good additions that should be considered. GitHub lets users describe the changes they’re making, but not everyone is precise when doing this. So you need to check closely to see what is really being changed."
 
-The suggested change, in [GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows][5]:  
+The suggested change, in [GitHub for Journalism — What WordPress Post Forking could do to Editorial Workflows](http://ben.balter.com/2012/02/28/github-for-journalism-what-wordpress-post-forking-could-do-to-editorial-workflows/):  
 
 User without the ability to edit an existing post has changes to make  
 User “forks” the post, making any change they deem necessary  
@@ -232,11 +231,11 @@ For more information, or to contribute to this documentation, please visit the [
 **Requires:** 3.4 or higher  
 **Compatible up to:** 3.5.2  
 **Last Updated:** 2013-1-31  
-**Downloads:** 59,539  
+**Downloads:** 61,388  
 
 4.9 out of 5 stars for 72 users  
 
-[Edit Flow][7] empowers you to collaborate with your editorial team inside WordPress. We've made it modular so you can customize it to your needs:  
+[Edit Flow](http://wordpress.org/plugins/edit-flow/) empowers you to collaborate with your editorial team inside WordPress. We've made it modular so you can customize it to your needs:  
 
 Calendar - A convenient month-by-month look at your content.  
 Custom Statuses - Define the key stages to your workflow.  
@@ -251,13 +250,13 @@ More details for each feature, screenshots and documentation can be found on our
 #####Revisionary
 
 **Requires:** 3.0 or higher  
-**Compatible up to:** 3.6  
+**Compatible up to:** 3.6.1  
 **Last Updated:** 2013-8-19  
-**Downloads:** 17,757  
+**Downloads:** 18,741  
 
 4.7 out of 5 stars for 18 users.  
 
-[Revisionary][8]. Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
+[Revisionary](http://wordpress.org/plugins/revisionary/). Have you ever wanted to allow certain users to submit changes to published content, with an editor reviewing those changes before publication?  
 
 Doesn't it seem like setting a published post/page to a future date should schedule your changes to be published on that date, instead of unpublishing it until that date?  
 
@@ -274,12 +273,12 @@ Works with blog-wide WordPress Roles, or in conjunction with Press Permit or Rol
 
 #####Duplicate Post
 
-[Duplicate Post][9]
+[Duplicate Post](http://wordpress.org/plugins/duplicate-post/)
 
 **Requires:** 3.0 or higher  
 **Compatible up to:** 3.3.2  
 **Last Updated:** 2012-5-4  
-**Downloads:** 371,136  
+**Downloads:** 386,875  
 
 4.8 out of 5 stars for 154 users  
 
@@ -315,13 +314,8 @@ If you want to contribute to translate the plugin in languages other than Englis
 
 I'd love to help WordPress create version control for its users, or bring it to GitHub standards. But I need help for that. Please find me in the break if you'd like to work on this as well! 
 
-[1]: http://wordpress.org/plugins/tags/version-control
-[2]: http://wordpress.org/news/2013/08/oscar/
-[3]: http://wordpress.org/plugins/wp-document-revisions/
-[4]: http://wordpress.org/plugins/post-forking/
-[5]: http://ben.balter.com/2012/02/28/github-for-journalism-what-wordpress-post-forking-could-do-to-editorial-workflows/
-[6]: https://github.com/post-forking/post-forking/wiki
-[7]: http://wordpress.org/plugins/edit-flow/  
-[8]: http://wordpress.org/plugins/revisionary/
-[9]: http://wordpress.org/plugins/duplicate-post/  
+
+
+
+
 
