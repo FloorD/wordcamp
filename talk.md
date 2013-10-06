@@ -85,6 +85,8 @@ I actually wanted to put 'broader range of markdown/syntax support' in here as w
 
 ####So... What's out there that slighty resembles what I want/need?
 
+Please standup, or raise your hand if you've contributed to any of the plugins I mention.   
+
 #####WP Document Revisions
 
 **Requires:** 3.2 or higher  
@@ -261,6 +263,7 @@ You can also set a prefix (or a suffix) to place before (or after) the title of 
 ####Monday is hackathon day, right?  
 
 I'd love to help WordPress create version control for its users, or bring it to GitHub standards. But I need help for that. Please find me in the break if you'd like to work on this as well! I'm thinking about contributing to Post Forking (as it also integrates with Edit Flow), but if one of you is working on the next big thing, I'd love to help.  
+Or if you can think of other functionality you'd want to see in a vc plugin, let me know in the questions round! 
 
 ###Thank you. 
 
